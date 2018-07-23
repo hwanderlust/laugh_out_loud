@@ -1,3 +1,9 @@
+## Basic project playing with fetching data from an external API for fun
+
+## Found API from https://github.com/toddmotto/public-apis --> https://github.com/15Dkatz/official_joke_api 
+
+
+________________________________________________________________________________________________________________
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
