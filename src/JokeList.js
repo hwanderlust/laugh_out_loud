@@ -38,10 +38,10 @@ export default class JokeList extends React.Component {
       <div className="JokeList">
         <h2>Are you ready to rumbleeeeeeee?!</h2>
         <div className="row">
-          <div className="col s6">
+          <div className="col s2 push-s4">
             <FetchButton name="One" color="pink accent-1" fetchFunction={() => this.handleClick("One")}/>
           </div>
-          <div className="col s6">
+          <div className="col s2 push-s4">
             <FetchButton name="Ten" color="blue darken-1" fetchFunction={() => this.handleClick("Ten")} />
           </div>
         </div>
