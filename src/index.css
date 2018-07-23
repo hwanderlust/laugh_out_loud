@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  color: rgba(69, 125, 108, 1)
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  flex: 1;
+}
+
+h2 {
+  margin: 5% 0;
+}
+
+.button {
+  margin: 5% 0;
+}
