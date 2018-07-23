@@ -26,9 +26,11 @@ export default class JokeList extends React.Component {
 
   handleClick = (name) => {
     if(name === "One") {
-      fetchRandomJoke((jokes) => this.updateJokes(jokes))
+      fetchRandomJoke()
+        .then(jokes => this.updateJokes(jokes))
     } else if(name === "Ten") {
-      fetchTenJokes((jokes) => this.updateJokes(jokes))
+      fetchTenJokes()
+      .then(jokes => this.updateJokes(jokes))
     }
   }
 
